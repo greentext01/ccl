@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+bin/ccl.py
+src/caracal/__init__.py
+src/caracal/block.py
+src/caracal/build.py
+src/caracal/costume.py
+src/caracal/sprite.py
+src/caracal/compiler/__init__.py
+src/caracal/compiler/main.py
+src/ccl.egg-info/PKG-INFO
+src/ccl.egg-info/SOURCES.txt
+src/ccl.egg-info/dependency_links.txt
+src/ccl.egg-info/top_level.txt
