@@ -8,7 +8,8 @@
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
-      "program": "ccl",
+      "program": "C:/Users/oaude/OneDrive - Lycee Claudel/Documents/Important/ccl/caracal/bin/ccl.py",
+      "cwd": "C:/Users/oaude/OneDrive - Lycee Claudel/Documents/Important/ccl/caracal-test",
       "console": "integratedTerminal",
       "justMyCode": true
     }
