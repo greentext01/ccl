@@ -49,33 +49,61 @@
       "lists": {},
       "broadcasts": {},
       "blocks": {
-        "e@Y!m/q=(`L;T/Gj;c-Q": {
-          "opcode": "event_whenflagclicked",
-          "next": "2)i^33%Vr)cGu+)@M;4X",
+        "^U4ccy.4hB]|XQ/gg%-F": {
+          "next": "kXX_|V%?hIcer_m#G*FG",
           "parent": null,
-          "inputs": {},
           "fields": {},
+          "inputs": {},
           "shadow": false,
           "topLevel": true,
-          "x": 331,
-          "y": -1209
+          "opcode": "event_whenflagclicked",
+          "x": 50,
+          "y": 50
         },
-        "2)i^33%Vr)cGu+)@M;4X": {
-          "opcode": "looks_say",
+        "kXX_|V%?hIcer_m#G*FG": {
           "next": null,
-          "parent": "e@Y!m/q=(`L;T/Gj;c-Q",
+          "parent": "^U4ccy.4hB]|XQ/gg%-F",
+          "fields": {},
           "inputs": {
             "MESSAGE": [
               1,
               [
                 10,
-                "Hello!"
+                "hi mom"
               ]
             ]
           },
-          "fields": {},
           "shadow": false,
-          "topLevel": false
+          "topLevel": false,
+          "opcode": "looks_say"
+        },
+        "nKlg}1~[rqjN*O[e@c%1": {
+          "next": "^?qp7U|@APgz%Rf+a!;(",
+          "parent": null,
+          "fields": {},
+          "inputs": {},
+          "shadow": false,
+          "topLevel": true,
+          "opcode": "event_whenflagclicked",
+          "x": 50,
+          "y": 50
+        },
+        "^?qp7U|@APgz%Rf+a!;(": {
+          "next": null,
+          "parent": "nKlg}1~[rqjN*O[e@c%1",
+          "fields": {},
+          "inputs": {
+            "MESSAGE": [
+              1,
+              [
+                10,
+                "hi mom"
+              ]
+            ]
+          },
+          "shadow": false,
+          "topLevel": false,
+          "opcode": "looks_say"
         }
       },
       "comments": {},

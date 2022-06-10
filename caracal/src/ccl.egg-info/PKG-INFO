@@ -5,11 +5,10 @@ Summary: Python to Scratch compiler
 Home-page: https://github.com/greentext01/ccl
 Author: Olivier Audet-Yang
 Author-email: oaudetyang@gmail.com
-License: PSF
+License: MIT
 Project-URL: Bug Tracker, https://github.com/greentext01/ccl/issues
 Project-URL: Repository, https://github.com/greentext01/ccl
-Keywords: hello world example examples
-Platform: UNKNOWN
+Keywords: scratch compiler framework library
 Classifier: Development Status :: 1 - Planning
 Classifier: Topic :: Software Development :: Compilers
 Classifier: Operating System :: OS Independent
@@ -25,5 +24,3 @@ CCL or Caracal is a compiler that compiles Python to Scratch.
 It is designed to be scalable for big scratch projects.
 
 This project is still in progress, so check back soon!
-
-
