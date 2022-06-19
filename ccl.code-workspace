@@ -1,11 +1,11 @@
 {
 	"folders": [
-		{
-			"path": "caracal"
-		},
-		{
-			"path": "caracal-test"
-		}
-	],
+    {
+      "path": "scratchsr"
+    },
+    {
+      "path": "scratchsr-test"
+    }
+  ],
   "settings": {}
 }

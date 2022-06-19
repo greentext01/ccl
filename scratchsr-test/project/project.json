@@ -1,0 +1,122 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "background",
+          "bitmapResolution": 1,
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 0,
+          "rotationCenterY": 0
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": "English",
+      "size": 100,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "isStage": false,
+      "name": "Cat",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {
+        "DctuiNSA(#jw^mNQWa1W": {
+          "next": "Nl!qCfYrvgbw})5ZZVs)",
+          "parent": null,
+          "fields": {},
+          "inputs": {},
+          "shadow": false,
+          "topLevel": true,
+          "opcode": "event_whenflagclicked",
+          "x": 50,
+          "y": 50
+        },
+        "Nl!qCfYrvgbw})5ZZVs)": {
+          "next": "cVX-kuB-xU[lyU_`q%;F",
+          "parent": "DctuiNSA(#jw^mNQWa1W",
+          "fields": {},
+          "inputs": {
+            "TO": [
+              1,
+              "%p%D]Hu)Hpf@@xO{Yvc-"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false,
+          "opcode": "motion_goto"
+        },
+        "%p%D]Hu)Hpf@@xO{Yvc-": {
+          "next": null,
+          "parent": "Nl!qCfYrvgbw})5ZZVs)",
+          "fields": {
+            "TO": [
+              "_random_",
+              null
+            ]
+          },
+          "inputs": {},
+          "shadow": false,
+          "topLevel": false,
+          "opcode": "motion_goto_menu"
+        }
+      },
+      "comments": {},
+      "currentCostume": null,
+      "costumes": [
+        {
+          "assetId": "c43910b1e1f6fb9cb8d206976fc23733",
+          "name": "car",
+          "bitmapResolution": 1,
+          "md5ext": "c43910b1e1f6fb9cb8d206976fc23733.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 0,
+          "rotationCenterY": 0
+        },
+        {
+          "assetId": "5f26d40d5d8df5387f9d0ffd13f66a89",
+          "name": "Webp.net-resizeimage",
+          "bitmapResolution": 1,
+          "md5ext": "5f26d40d5d8df5387f9d0ffd13f66a89.png",
+          "dataFormat": "png",
+          "rotationCenterX": 0,
+          "rotationCenterY": 0
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 1,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": "English",
+      "size": 25,
+      "x": 200,
+      "y": 200
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0-prerelease.20220222132735",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Scratch/3.29.1 Chrome/94.0.4606.81 Electron/15.3.1 Safari/537.36"
+  }
+}
